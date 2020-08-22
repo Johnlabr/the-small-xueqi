@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 5a216347c302f6c40983a87486800bf0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arch22_020_32
+    100002: arch22_055_00
+    100004: arch22_055_01
+    100006: arch22_055_02
+    100008: arch22_055_03
+    100010: arch22_055_04
+    100012: arch22_055_05
+    100014: arch22_055_06
+    100016: arch22_055_07
+    100018: arch22_055_08
+    100020: arch22_055_09
+    100022: arch22_055_10
+    100024: arch22_055_11
+    100026: arch22_055_12
+    100028: arch22_055_13
+    100030: arch22_055_14
+    100032: arch22_055_15
+    100034: arch22_055_16
+    100036: arch22_055_17
+    100038: arch22_055_18
+    100040: arch22_055_19
+    100042: arch22_055_20
+    100044: arch22_055_21
+    100046: arch22_055_22
+    100048: arch22_055_23
+    100050: arch22_055_24
+    100052: //RootNode
+    400000: arch22_020_32
+    400002: arch22_055_00
+    400004: arch22_055_01
+    400006: arch22_055_02
+    400008: arch22_055_03
+    400010: arch22_055_04
+    400012: arch22_055_05
+    400014: arch22_055_06
+    400016: arch22_055_07
+    400018: arch22_055_08
+    400020: arch22_055_09
+    400022: arch22_055_10
+    400024: arch22_055_11
+    400026: arch22_055_12
+    400028: arch22_055_13
+    400030: arch22_055_14
+    400032: arch22_055_15
+    400034: arch22_055_16
+    400036: arch22_055_17
+    400038: arch22_055_18
+    400040: arch22_055_19
+    400042: arch22_055_20
+    400044: arch22_055_21
+    400046: arch22_055_22
+    400048: arch22_055_23
+    400050: arch22_055_24
+    400052: //RootNode
+    2100000: 13 - Default
+    2100002: 07 - Default
+    2100004: 2
+    2300000: arch22_020_32
+    2300002: arch22_055_00
+    2300004: arch22_055_01
+    2300006: arch22_055_02
+    2300008: arch22_055_03
+    2300010: arch22_055_04
+    2300012: arch22_055_05
+    2300014: arch22_055_06
+    2300016: arch22_055_07
+    2300018: arch22_055_08
+    2300020: arch22_055_09
+    2300022: arch22_055_10
+    2300024: arch22_055_11
+    2300026: arch22_055_12
+    2300028: arch22_055_13
+    2300030: arch22_055_14
+    2300032: arch22_055_15
+    2300034: arch22_055_16
+    2300036: arch22_055_17
+    2300038: arch22_055_18
+    2300040: arch22_055_19
+    2300042: arch22_055_20
+    2300044: arch22_055_21
+    2300046: arch22_055_22
+    2300048: arch22_055_23
+    2300050: arch22_055_24
+    3300000: arch22_020_32
+    3300002: arch22_055_00
+    3300004: arch22_055_01
+    3300006: arch22_055_02
+    3300008: arch22_055_03
+    3300010: arch22_055_04
+    3300012: arch22_055_05
+    3300014: arch22_055_06
+    3300016: arch22_055_07
+    3300018: arch22_055_08
+    3300020: arch22_055_09
+    3300022: arch22_055_10
+    3300024: arch22_055_11
+    3300026: arch22_055_12
+    3300028: arch22_055_13
+    3300030: arch22_055_14
+    3300032: arch22_055_15
+    3300034: arch22_055_16
+    3300036: arch22_055_17
+    3300038: arch22_055_18
+    3300040: arch22_055_19
+    3300042: arch22_055_20
+    3300044: arch22_055_21
+    3300046: arch22_055_22
+    3300048: arch22_055_23
+    3300050: arch22_055_24
+    4300000: arch22_020_32
+    4300002: arch22_055_00
+    4300004: arch22_055_01
+    4300006: arch22_055_02
+    4300008: arch22_055_03
+    4300010: arch22_055_04
+    4300012: arch22_055_05
+    4300014: arch22_055_06
+    4300016: arch22_055_07
+    4300018: arch22_055_08
+    4300020: arch22_055_09
+    4300022: arch22_055_10
+    4300024: arch22_055_11
+    4300026: arch22_055_12
+    4300028: arch22_055_13
+    4300030: arch22_055_14
+    4300032: arch22_055_15
+    4300034: arch22_055_16
+    4300036: arch22_055_17
+    4300038: arch22_055_18
+    4300040: arch22_055_19
+    4300042: arch22_055_20
+    4300044: arch22_055_21
+    4300046: arch22_055_22
+    4300048: arch22_055_23
+    4300050: arch22_055_24
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
