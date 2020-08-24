@@ -36,10 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\move.cs" />
-     <Compile Include="Assets\场景跳转.cs" />
+     <Compile Include="Assets\Scripts\move.cs" />
      <Compile Include="Assets\素材\楼群1\建筑群\tadiao.cs" />
      <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
+     <Compile Include="Assets\Scripts\menucontrol.cs" />
      <None Include="Assets\WorldMaterialsFree\WorldMatLiteFree.shader" />
      <None Include="Assets\WorldMaterialsFree\WorldMatFree.shader" />
      <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
