@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: "Assets/Scenes/\u98DF\u5802.unity"
-=======
-- path: "Assets/Scenes/\u4E3B\u83DC\u5355.unity"
->>>>>>> 64230d2227d0cf07c7270a8c26399a35c8bfa777
   isLoaded: 1
   isActive: 1
   isSubScene: 0
