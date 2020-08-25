@@ -11,9 +11,9 @@ public class move : MonoBehaviour
     Vector3 direction;
 
 
-    public float speed = 1;
-    public float jumpPower = 5;
-    public float gravity = 7f;
+    private float speed = 1;
+    private float jumpPower = 0;
+    private float gravity = 7f;
 
 
     public float mousespeed = 5f;
@@ -33,30 +33,39 @@ public class move : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+     
+    }
+    bool isstartmove = false;
+    public void startmove()
+    {
+        isstartmove = true;
         playerController = this.GetComponent<CharacterController>();
         Screen.lockCursor = true;
     }
-
     // Update is called once per frame
     void Update()
     {
-        float _horizontal = Input.GetAxis("Horizontal");
-        float _vertical = Input.GetAxis("Vertical");
-
-        if (playerController.isGrounded)
+        if (isstartmove == true)
         {
-            direction = new Vector3(_horizontal, 0, _vertical);
-            if (Input.GetKeyDown(KeyCode.Space))
-                direction.y = jumpPower;
-        }
-        direction.y -= gravity * Time.deltaTime;
-        playerController.Move(playerController.transform.TransformDirection(direction * Time.deltaTime * speed));
+            float _horizontal = Input.GetAxis("Horizontal");
+            float _vertical = Input.GetAxis("Vertical");
 
-        RotationX += agretctCamera.transform.localEulerAngles.y + Input.GetAxis("Mouse X") * mousespeed;
-        RotationY -= Input.GetAxis("Mouse Y") * mousespeed;
-        RotationY = Mathf.Clamp(RotationY, minmouseY, maxmouseY);
-        this.transform.eulerAngles = new Vector3(0, RotationX, 0);
-        agretctCamera.transform.eulerAngles = new Vector3(RotationY, RotationX, 0);
+            if (playerController.isGrounded)
+            {
+                direction = new Vector3(_horizontal, 0, _vertical);
+                if (Input.GetKeyDown(KeyCode.Space))
+                    direction.y = jumpPower;
+            }
+            direction.y -= gravity * Time.deltaTime;
+            playerController.Move(playerController.transform.TransformDirection(direction * Time.deltaTime * speed));
+
+            RotationX += agretctCamera.transform.localEulerAngles.y + Input.GetAxis("Mouse X") * mousespeed;
+            RotationY -= Input.GetAxis("Mouse Y") * mousespeed;
+            RotationY = Mathf.Clamp(RotationY, minmouseY, maxmouseY);
+            this.transform.eulerAngles = new Vector3(0, RotationX, 0);
+            agretctCamera.transform.eulerAngles = new Vector3(RotationY, RotationX, 0);
+        }
+       
     }
 
 }

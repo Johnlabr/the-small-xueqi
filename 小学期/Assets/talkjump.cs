@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class talkjump : MonoBehaviour
 {
-
+    //public gameobject a;
     public static Vector3 vec3, pos;
+    
     // Use this for initialization
     void Start()
     {
