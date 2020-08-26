@@ -7,12 +7,14 @@ public class talkjump : MonoBehaviour
 {
     //public gameobject a;
     public static Vector3 vec3, pos;
-    
+
+
     // Use this for initialization
     void Start()
     {
 
         gameObject.SetActive(false);
+        Debug.Log("111");
     }
 
     /// <summary>
@@ -35,7 +37,7 @@ public class talkjump : MonoBehaviour
         vec3 = Input.mousePosition;//刷新下鼠标拖拽结束的新位置，用于下次拖拽的计算
         pos = pos + off;//原来image所在的位置自然是要被偏移
         transform.GetComponent<RectTransform>().position = pos;//直接将自己刷新到新坐标
-        
+
     }
 
     /// <summary>

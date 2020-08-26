@@ -11,7 +11,7 @@ public class move : MonoBehaviour
     Vector3 direction;
 
 
-    private float speed = 1;
+    private float speed = 30;
     private float jumpPower = 0;
     private float gravity = 7f;
 
@@ -33,7 +33,7 @@ public class move : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-     
+
     }
     bool isstartmove = false;
     public void startmove()
@@ -65,7 +65,7 @@ public class move : MonoBehaviour
             this.transform.eulerAngles = new Vector3(0, RotationX, 0);
             agretctCamera.transform.eulerAngles = new Vector3(RotationY, RotationX, 0);
         }
-       
+
     }
 
 }

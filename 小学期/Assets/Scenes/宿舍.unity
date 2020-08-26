@@ -5150,6 +5150,7 @@ GameObject:
   - component: {fileID: 2059454772}
   - component: {fileID: 2059454771}
   - component: {fileID: 2059454770}
+  - component: {fileID: 2059454769}
   m_Layer: 0
   m_Name: "\u4EBA\u7269"
   m_TagString: Untagged
@@ -5157,6 +5158,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2059454769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059454768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec77459bb151c749a4bdee21a12ab09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &2059454770
 CapsuleCollider:
   m_ObjectHideFlags: 0
